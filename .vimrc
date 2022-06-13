@@ -1,3 +1,5 @@
+let g:ycm_clangd_args=['--header-insertion=never']
+
 let g:ycm_semantic_triggers =  {
   \   'python,c,cpp,objc': [ 're!\w{3}', '_' ],
   \ }
